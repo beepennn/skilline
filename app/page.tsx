@@ -132,31 +132,75 @@ export default function HomePage() {
 
         <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-16">
           {/* Google */}
-          <div className="text-3xl lg:text-4xl font-bold mb-4">
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl lg:text-4xl font-bold mb-4 transition-transform hover:scale-110"
+            aria-label="Visit Google's website"
+          >
             <span className="text-blue-500">G</span>
             <span className="text-red-500">o</span>
             <span className="text-yellow-500">o</span>
             <span className="text-blue-500">g</span>
             <span className="text-green-500">l</span>
             <span className="text-red-500">e</span>
-          </div>
+          </a>
 
           {/* Netflix */}
-          <div className="text-3xl lg:text-4xl font-bold text-red-600 mb-4">NETFLIX</div>
+          <a
+            href="https://www.netflix.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl lg:text-4xl font-bold text-red-600 mb-4 transition-transform hover:scale-110"
+            aria-label="Visit Netflix's website"
+          >
+            NETFLIX
+          </a>
 
           {/* Airbnb */}
-          <div className="text-3xl lg:text-4xl font-bold text-red-500 mb-4">airbnb</div>
+          <a
+            href="https://www.airbnb.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl lg:text-4xl font-bold text-red-500 mb-4 transition-transform hover:scale-110"
+            aria-label="Visit Airbnb's website"
+          >
+            airbnb
+          </a>
 
           {/* Amazon */}
-          <div className="text-3xl lg:text-4xl font-bold mb-4">
+          <a
+            href="https://www.amazon.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl lg:text-4xl font-bold mb-4 transition-transform hover:scale-110"
+            aria-label="Visit Amazon's website"
+          >
             <span className="text-gray-900">amazon</span>
-          </div>
+          </a>
 
           {/* Facebook */}
-          <div className="text-3xl lg:text-4xl font-bold text-blue-600 mb-4">facebook</div>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl lg:text-4xl font-bold text-blue-600 mb-4 transition-transform hover:scale-110"
+            aria-label="Visit Facebook's website"
+          >
+            facebook
+          </a>
 
           {/* Grab */}
-          <div className="text-3xl lg:text-4xl font-bold text-green-600 mb-4">Grab</div>
+          <a
+            href="https://www.grab.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl lg:text-4xl font-bold text-green-600 mb-4 transition-transform hover:scale-110"
+            aria-label="Visit Grab's website"
+          >
+            Grab
+          </a>
         </div>
       </section>
     </div>
